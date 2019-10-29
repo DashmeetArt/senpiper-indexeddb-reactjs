@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  /*max-width: 400px;*/
+  /*margin: auto;*/
 }
 
 .App-logo {
@@ -17,6 +21,99 @@
   color: white;
 }
 
+.Search {
+  padding: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .App-link {
   color: #09d3ac;
+}
+
+.listContainer {
+  overflow: scroll;
+  background-color: aliceblue;
+}
+
+.loaderContainer {
+  padding: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.groupHeading {
+  text-transform: capitalize;
+  padding: 8px 16px;
+  color: rgba(0, 29, 187, 0.71);
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: rgba(0, 39, 255, 0.15);
+}
+
+ul.list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 400px;
+}
+
+li.item {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(142, 142, 142, 0.2);
+  padding: 16px 16px;
+  margin: 10px 0;
+
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  grid-template-rows: auto auto minmax(20px, auto);
+  grid-gap: 10px;
+}
+
+li.item .name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+li.item .address {
+  grid-column: 1;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+li.item .rating {
+  grid-column: 2;
+  grid-row: 1/3;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  text-align: center;
+}
+
+li.item .rating .icon {
+  margin: auto;
+}
+
+li.item .rating .text {
+  font-size: 0.6rem;
+}
+
+ul.cuisineContainer {
+  list-style: none;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1/3;
+}
+
+ul.cuisineContainer > li{
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: rgba(3, 170, 244, 0.1);
+  border-radius: 4px;
+  padding: 2px 4px;
 }
