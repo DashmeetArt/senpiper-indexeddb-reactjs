@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/senpiper-indexeddb-reactjs/static/css/main.6e8fea07.chunk.css",
+    "main.js": "/senpiper-indexeddb-reactjs/static/js/main.aaa883df.chunk.js",
+    "main.js.map": "/senpiper-indexeddb-reactjs/static/js/main.aaa883df.chunk.js.map",
+    "runtime-main.js": "/senpiper-indexeddb-reactjs/static/js/runtime-main.c17385ee.js",
+    "runtime-main.js.map": "/senpiper-indexeddb-reactjs/static/js/runtime-main.c17385ee.js.map",
+    "static/js/2.09b2aeaf.chunk.js": "/senpiper-indexeddb-reactjs/static/js/2.09b2aeaf.chunk.js",
+    "static/js/2.09b2aeaf.chunk.js.map": "/senpiper-indexeddb-reactjs/static/js/2.09b2aeaf.chunk.js.map",
+    "index.html": "/senpiper-indexeddb-reactjs/index.html",
+    "precache-manifest.cbfed5299f56d7c609605d7589a0b7d0.js": "/senpiper-indexeddb-reactjs/precache-manifest.cbfed5299f56d7c609605d7589a0b7d0.js",
+    "service-worker.js": "/senpiper-indexeddb-reactjs/service-worker.js",
+    "static/css/main.6e8fea07.chunk.css.map": "/senpiper-indexeddb-reactjs/static/css/main.6e8fea07.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17385ee.js",
+    "static/js/2.09b2aeaf.chunk.js",
+    "static/css/main.6e8fea07.chunk.css",
+    "static/js/main.aaa883df.chunk.js"
+  ]
+}

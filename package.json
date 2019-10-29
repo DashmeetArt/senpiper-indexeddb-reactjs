@@ -2,6 +2,7 @@
   "name": "indexed-db",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://dashmeetart.github.io/senpiper-indexeddb-reactjs",
   "dependencies": {
     "@material-ui/core": "^4.5.1",
     "@material-ui/icons": "^4.5.1",
